@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       <div className="hero-img-container">
         <div className="tech-icon" style={{ gridArea: "icon1" }}>
-          <img src="./../assets/R.png" alt="React Logo" />
+          <img src="./R.png" alt="React Logo" />
         </div>
         <div className="tech-icon" style={{ gridArea: "icon2" }}>
           <img src="./../assets/python.png" alt="Python Logo" />
