@@ -1,6 +1,17 @@
 import React from "react";
 import "./../Hero/Hero.css";
 
+// Importing images
+import ReactLogo from "./../../assets/R.png";
+import PythonLogo from "./../../assets/python.png";
+import HTMLLogo from "./../../assets/html.png";
+import CSSLogo from "./../../assets/css.png";
+import HeroImage from "./../../assets/img3.jpeg";
+import JSLogo from "./../../assets/js.webp";
+import CSharpLogo from "./../../assets/c.png";
+import AlpineLogo from "./../../assets/alpine.png";
+import GitLogo from "./../../assets/git.jpeg";
+
 const Hero = () => {
   return (
     <section className="hero-container">
@@ -13,29 +24,29 @@ const Hero = () => {
       </div>
       <div className="hero-img-container">
         <div className="tech-icon" style={{ gridArea: "icon1" }}>
-          <img src="./R.png" alt="React Logo" />
+          <img src={ReactLogo} alt="React Logo" />
         </div>
         <div className="tech-icon" style={{ gridArea: "icon2" }}>
-          <img src="./../assets/python.png" alt="Python Logo" />
+          <img src={PythonLogo} alt="Python Logo" />
         </div>
         <div className="tech-icon" style={{ gridArea: "icon3" }}>
-          <img src="./../assets/html.png" alt="HTML Logo" />
+          <img src={HTMLLogo} alt="HTML Logo" />
         </div>
         <div className="tech-icon" style={{ gridArea: "icon4" }}>
-          <img src="./../assets/css.png" alt="CSS Logo" />
+          <img src={CSSLogo} alt="CSS Logo" />
         </div>
-        <img className="hero-img" src="./../assets/img3.jpeg" alt="Main Hero Image" />
+        <img className="hero-img" src={HeroImage} alt="Main Hero Image" />
         <div className="tech-icon" style={{ gridArea: "icon5" }}>
-          <img src="./../assets/js.webp" alt="JavaScript Logo" />
+          <img src={JSLogo} alt="JavaScript Logo" />
         </div>
         <div className="tech-icon" style={{ gridArea: "icon6" }}>
-          <img src="./../assets/c.png" alt="C# Logo" />
+          <img src={CSharpLogo} alt="C# Logo" />
         </div>
         <div className="tech-icon" style={{ gridArea: "icon7" }}>
-          <img src="./../assets/alpine.png" alt="Alpine Logo" />
+          <img src={AlpineLogo} alt="Alpine Logo" />
         </div>
         <div className="tech-icon" style={{ gridArea: "icon8" }}>
-          <img src="./../assets/git.jpeg" alt="Git Logo" />
+          <img src={GitLogo} alt="Git Logo" />
         </div>
       </div>
     </section>
@@ -43,6 +54,7 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
 
